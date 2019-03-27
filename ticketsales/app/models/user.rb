@@ -6,7 +6,9 @@ class User < ApplicationRecord
   end
 
   def most_expensive_ticket_bought_between(start_date,end_date)
+    tickets = TicketTypeInformation.find(self.id).joins(:Event).where(created_at: start_date..end_date)
 
+    return tickets
   end
 
   def last_event()
