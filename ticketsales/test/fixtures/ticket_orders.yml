@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Event: one
+  User: one
+  amount_paid: 1
+
+two:
+  Event: two
+  User: two
+  amount_paid: 1
