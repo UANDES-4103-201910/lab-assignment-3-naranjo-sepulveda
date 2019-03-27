@@ -2,12 +2,10 @@
 
 one:
   Event: one
-  User: one
-  amount_paid: 1
-  TicketTypeInformation: one
+  prince: 1
+  category: MyString
 
 two:
   Event: two
-  User: two
-  amount_paid: 1
-  TicketTypeInformation: two
+  prince: 1
+  category: MyString
